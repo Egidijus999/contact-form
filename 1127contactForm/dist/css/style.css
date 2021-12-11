@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(12, 12, 12, 255);
+
+}
+
+.main {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.adress,
+.phone,
+.email {
+    color: white;
+    width: 33%;
+    text-align: center;
+
+
+}
+
+.footter {
+    display: flex;
+    flex-direction: column;
+
+}
+
+i {
+    background-color: rgba(185, 153, 104, 255);
+    padding: 15px;
+    border-radius: 80px;
+    color: black;
+}
+
+input {
+    background-color: rgba(20, 20, 20, 255);
+    color: rgba(83, 83, 83, 255);
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+}
+
+p,
+h2 {
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: rgba(185, 153, 104, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.message {
+    height: 100px;
+
+}
+form {
+    margin: 100px 50px 50px 100px;
+    
+}
+.title {
+    color: rgba(185, 153, 104, 255);
+}
+.NewYork {
+    color:rgba(83, 83, 83, 255) ;
+}
